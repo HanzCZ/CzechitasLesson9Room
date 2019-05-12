@@ -1,4 +1,4 @@
-package cz.czechitas.janhanak.czechitaslesson9;
+package cz.czechitas.janhanak.czechitaslesson9.service;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

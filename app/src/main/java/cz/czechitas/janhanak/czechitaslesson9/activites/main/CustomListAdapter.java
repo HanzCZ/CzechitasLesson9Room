@@ -1,4 +1,4 @@
-package cz.czechitas.janhanak.czechitaslesson9;
+package cz.czechitas.janhanak.czechitaslesson9.activites.main;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -10,15 +10,18 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-import java.util.ArrayList;
+import java.util.List;
+
+import cz.czechitas.janhanak.czechitaslesson9.R;
+import cz.czechitas.janhanak.czechitaslesson9.data.Movie;
 
 public class CustomListAdapter extends ArrayAdapter {
 
     //to reference the Activity
     private final Activity context;
-    private final ArrayList<Movie> movies;
+    private final List<Movie> movies;
 
-    public CustomListAdapter(Activity context, ArrayList<Movie> movies) {
+    public CustomListAdapter(Activity context, List<Movie> movies) {
         super(context, R.layout.list_item, movies);
         this.context = context;
         this.movies = movies;

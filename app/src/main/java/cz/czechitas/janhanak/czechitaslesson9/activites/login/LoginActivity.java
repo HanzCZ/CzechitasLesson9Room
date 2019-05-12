@@ -1,4 +1,4 @@
-package cz.czechitas.janhanak.czechitaslesson9;
+package cz.czechitas.janhanak.czechitaslesson9.activites.login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,11 @@ import com.orhanobut.hawk.Hawk;
 
 import java.net.HttpURLConnection;
 
+import cz.czechitas.janhanak.czechitaslesson9.activites.main.MainActivity;
+import cz.czechitas.janhanak.czechitaslesson9.R;
+import cz.czechitas.janhanak.czechitaslesson9.data.LoginAnswer;
+import cz.czechitas.janhanak.czechitaslesson9.service.ApiService;
+import cz.czechitas.janhanak.czechitaslesson9.service.RetrofitInstance;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

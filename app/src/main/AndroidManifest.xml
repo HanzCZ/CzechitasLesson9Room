@@ -11,14 +11,14 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="cz.czechitas.janhanak.czechitaslesson9.LoginActivity"
+            android:name="cz.czechitas.janhanak.czechitaslesson9.activites.login.LoginActivity"
             android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cz.czechitas.janhanak.czechitaslesson9.MainActivity"/>
+        <activity android:name="cz.czechitas.janhanak.czechitaslesson9.activites.main.MainActivity"/>
     </application>
 
 </manifest>
